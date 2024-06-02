@@ -3,7 +3,7 @@ module.exports = {
   extends: ['react-app', 'plugin:jsx-a11y/recommended'],
   plugins: ['jsx-a11y'],
   env: {
-    browser: true,
+    browser: false,
     es6: true,
     node: true,
   },
